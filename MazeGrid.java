@@ -1,7 +1,6 @@
-/*	MazeGrid.java
+/* *THIS CODE WAS NOT WRITTEN BY ME, BUT RATHER WAS PROVIDED BY MY INSTRUCTOR FOR THE ASSIGNMENT*	
+    MazeGrid.java
     The GUI for the MazeSolver class
-	Alan Riggins
-	CS310 Fall 2017
 */    
 
 import java.awt.*;
