@@ -1,16 +1,14 @@
-package data_structures;
 /*  
- Program #2
- Megan Respicio
- cssc0935
+   Date: October 2017
+   Doubly linked list implementation using LinearListADT
 */
 
-//package data_structures;
+package data_structures;
 
 import java.util.Iterator;
 import java.util.ConcurrentModificationException;
 import java.util.NoSuchElementException;
-//import data_structures;
+
 public class LinearList<E extends Comparable<E>> implements LinearListADT<E>{
 	public static final int DEFAULT_MAX_CAPACITY = 100;
 	private class Node<T>{
@@ -70,23 +68,14 @@ public class LinearList<E extends Comparable<E>> implements LinearListADT<E>{
     	return tmp;
     }
     public E removeLast(){
-    	Node<E> curr = head;
-    	Node<E> prev = null;
-    	while(curr != tail){
-    		prev = curr;
-    		curr = curr.next;
-    	}
-    	if(curr==null)
-    		return null;
+    	if(tail==null) return null;
     	E tmp = tail.data;
-    	tail = prev;
-    	if(tail==null)
-    		head = null;
-    	else
-    		tail.next = null;
+    	tail = tail.prev;
+    	if(tail==null) head=null; 
+    	else tail.next=null;
     	currentSize--;
     	modCounter++;
-		return tmp;
+    	return tmp;
     }
     public E remove(E obj){
     	Node<E> current = head;
