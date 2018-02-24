@@ -1,9 +1,10 @@
-import data_structures.*;
-/*  
- Program #3
- Megan Respicio
- cssc0935
+/*  Date: November 2017
+     Maze Solver implementation. This class consists of functions that tell the buttons on the GUI what to do. 
+    The goals of the maze solver is to mark each avilable (and reachable) cell with its distance to the starting cell and
+    find the shortest route between the starting and ending cell if a solution exists.
 */
+
+import data_structures.*;
 public class MazeSolver {
 	 private Stack<GridCell> stack; 
 	 private Queue<GridCell> queue;
