@@ -1,8 +1,7 @@
-/*  Class GridCell
+/* *THIS CODE WAS NOT WRITTEN BY ME, BUT RATHER WAS PROVIDED BY MY INSTRUCTOR FOR THE ASSIGNMENT*
+    Class GridCell
     A wrapper class that holds the xy coordinates, and distance from the origin
     (0,0) of a cell in the Grid.
-    Alan Riggins
-    CS310 Fall 2017
 */    
 
 public class GridCell implements Comparable<GridCell> {
