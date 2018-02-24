@@ -1,12 +1,9 @@
-package data_structures;
 /*  
- Program #2
- Megan Respicio
- cssc0935
+ Date: October 2017 
+ Stack implementation that uses LinearList
 */
 
-//package data_structures;
-
+package data_structures;
 import java.util.Iterator;
 
 public class Stack <E extends Comparable<E>> implements Iterable<E>{
