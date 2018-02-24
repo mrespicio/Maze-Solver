@@ -1,10 +1,9 @@
-package data_structures;
 /* 
-	Megan Respicio
-    cssc0935
+  Date: October 2017
+  Assignment prompt given. LinearList was created as an extension of this ADT
 */
 
-//package data_structures;
+package data_structures;
 
 import java.util.Iterator;
 import java.util.NoSuchElementException;
