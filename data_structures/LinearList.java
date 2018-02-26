@@ -1,7 +1,6 @@
-/*  
+/* By: Megan Respicio
    Date: October 2017
-   Doubly linked list implementation using LinearListADT
-*/
+   Github: github.com/mrespicio */
 
 package data_structures;
 import java.util.Iterator;
