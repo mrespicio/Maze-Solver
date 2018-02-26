@@ -1,8 +1,6 @@
-/*  Date: November 2017
-     Maze Solver implementation. This class consists of functions that tell the buttons on the GUI what to do. 
-    The goals of the maze solver is to mark each avilable (and reachable) cell with its distance to the starting cell and
-    find the shortest route between the starting and ending cell if a solution exists.
-*/
+/* By: Megan Respicio
+   Date: October 2017
+   Github: github.com/mrespicio */
 
 import data_structures.*;
 public class MazeSolver {
