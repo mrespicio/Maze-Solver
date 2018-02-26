@@ -1,7 +1,6 @@
-/*
+/* By: Megan Respicio
    Date: October 2017
-   Queue implementation that uses LinearList
-*/ 
+   Github: github.com/mrespicio */
 
 package data_structures;
 import java.util.Iterator;
